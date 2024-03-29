@@ -104,7 +104,7 @@ def test_eit_pet():
     assert updated_pet_data["pet"]["name"] == 'NewMolly', 'Не удалось изменить имя питомца'
     assert updated_pet_data["pet"]["type"] == 'cat', 'Не удалось изменить тип питомца'
     assert updated_pet_data["pet"]["age"] == 7, 'Не удалось изменить возраст питомца'
-    assert updated_pet_data["pet"]["gender"] == 'Male', 'Не удалось изменить возраст питомца'
+    assert updated_pet_data["pet"]["gender"] == 'Male', 'Не удалось изменить пол питомца'
 
 
 @pytest.mark.smoke
