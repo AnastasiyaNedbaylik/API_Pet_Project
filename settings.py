@@ -18,7 +18,7 @@ EXPECTED_PET_DATA = {
 
 
 class Data:
-    VALID_EMAIL = "anastasiya.niadbailik+autotest2@gmail.com"
+    VALID_EMAIL = ""
     VALID_PASSWORD = "fhfurbd4547474@!@!"
     # INCORRECT_EMAIL = 'autotest2gmail.com'
     BASE_URL = 'http://34.141.58.52:8000/'
